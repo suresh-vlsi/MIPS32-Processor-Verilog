@@ -133,6 +133,12 @@ GTKWave
 -   Synthesis and timing analysis
 -   RTL-to-GDSII flow
 
+## MIPS32 CPU Block Diagram
+
+The processor uses a modular single-cycle datapath consisting of the program counter, instruction memory, control unit, register file, immediate extension, ALU, data memory, branch logic, jump logic, and write-back path.
+
+![MIPS32 CPU Block Diagram](docs/mips32_block_diagram.png)
+
 ## GTKWave Verification
 
 The MIPS32 processor was simulated using Icarus Verilog and the generated VCD waveform was analyzed using GTKWave.
