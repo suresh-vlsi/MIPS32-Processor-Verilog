@@ -133,6 +133,12 @@ GTKWave
 -   Synthesis and timing analysis
 -   RTL-to-GDSII flow
 
+## GTKWave Verification
+
+The MIPS32 processor was simulated using Icarus Verilog and the generated VCD waveform was analyzed using GTKWave.
+
+![MIPS32 CPU GTKWave Waveform](docs/mips32_waveform.jpg)
+
 ## Author
 
 **Suresh Kumar**
